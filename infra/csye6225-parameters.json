@@ -1,0 +1,61 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "prod"
+    },
+    {
+        "ParameterKey": "VpcCIDR",
+        "ParameterValue": "10.192.0.0/16"
+    },
+    {
+        "ParameterKey": "PublicSubnet1CIDR",
+        "ParameterValue": "10.192.10.0/24"
+    },
+    {
+        "ParameterKey": "PublicSubnet2CIDR",
+        "ParameterValue": "10.192.11.0/24"
+    },
+    {
+        "ParameterKey": "PublicSubnet3CIDR",
+        "ParameterValue": "10.192.12.0/24"
+    },
+    {
+        "ParameterKey": "AmiId",
+        "ParameterValue": "ami-0858395689d8b20de"
+    },
+    {
+        "ParameterKey": "KeyPairName",
+        "ParameterValue": "awskey"
+    }, 
+    {
+        "ParameterKey": "Engine",
+        "ParameterValue": "mysql"
+    }, 
+    {
+        "ParameterKey": "InstanceClass",
+        "ParameterValue": "db.t3.micro"
+    }, 
+    {
+        "ParameterKey": "MultiAZDeployment",
+        "ParameterValue": "false"
+    }, 
+    {
+        "ParameterKey": "InstanceIdentifier",
+        "ParameterValue": "csye6225"
+    }, 
+    {
+        "ParameterKey": "DBUsername",
+        "ParameterValue": "csye6225"
+    },
+    {
+        "ParameterKey": "DBPassword",
+        "ParameterValue": "xxxYYYzzz"
+    },
+    {
+        "ParameterKey": "DBName",
+        "ParameterValue": "csye6225"
+    }, {
+        "ParameterKey": "AllocatedStorage",
+        "ParameterValue": "50"
+    }
+]

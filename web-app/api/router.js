@@ -18,16 +18,6 @@ const s3 = new AWS.S3({
 logger.info("Bucket name" + process.env.BUCKET_NAME);
 const BUCKET_NAME = process.env.BUCKET_NAME;
 
-// const sns = new AWS.SNS({
-//   // secretAccessKey: "f5Y6d82EhvoC6eI2qoqXiXd9TYaff1a40w3sDdMw",
-//   // accessKeyId: "AKIARSMQ4HGOLDOIOH72",
-//   region: "us-east-1",
-// });
-// let dynamoClient = new AWS.DynamoDB.DocumentClient({
-//   endpoint: "http://dynamodb.us-east-1.amazonaws.com",
-//   region: "us-east-1",
-// });
-
 router.use(setUser);
 var login;
 var password;

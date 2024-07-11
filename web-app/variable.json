@@ -1,0 +1,10 @@
+{
+    "ssh_username":"ubuntu",
+    "aws_region": "us-east-1",
+    "subnet_id": "subnet-01e767276646afd6d",
+    "source_ami": "ami-08c40ec9ead489470",
+    "vpc_id": "vpc-0345cf6d2ddf9542b",
+    "access_key": "AKIAZOAWYLQVQC7OGEZJ",
+    "secret_key": "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",
+    "ami_users": ["800415706217"]
+  }
